@@ -1,1 +1,1 @@
-# pacman-sdl
+# game-2
