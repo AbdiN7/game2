@@ -1,5 +1,5 @@
-#ifndef UTIL_COMPONENT_H_
-#define UTIL_COMPONENT_H_
+#ifndef COMPONENTS_COMPONENT_H_
+#define COMPONENTS_COMPONENT_H_
 class Component {
 public:
   int num;

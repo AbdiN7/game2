@@ -1,7 +1,6 @@
-#ifndef UTIL_SPRITE_H_
-#define UTIL_SPRITE_H_
-#include "../Actor.h"
-#include "Component.h"
+#ifndef COMPONENTS_SPRITE_H_
+#define COMPONENTS_SPRITE_H_
+#include "../Actors/Actor.h"
 #include "SDL2/SDL.h"
 class CSprite : public Component {
 public:

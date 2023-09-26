@@ -1,7 +1,7 @@
-#ifndef UTIL_ACTOR_H_
-#define UTIL_ACTOR_H_
-#include "Components/Component.h"
-#include "Vector2D.h"
+#ifndef MATH_ACTOR_H_
+#define MATH_ACTOR_H_
+#include "../Components/Component.h"
+#include "../Math/Math.h"
 #include <vector>
 class Actor {
 public:
@@ -12,7 +12,7 @@ public:
   State GetState();
   float GetScale();
   float GetRotation();
-  Vector2D GetPosition();
+  Vector2 GetPosition();
   void SetPosition(int x, int y);
   void SetScale(int s);
   void SetRotation(int r);
@@ -24,7 +24,7 @@ public:
 
 private:
   State mState;
-  Vector2D mPosition;
+  Vector2 mPosition;
   float mScale;
   float mRotation;
   std::vector<class Component *> mComponents;

@@ -1,5 +1,5 @@
 #include "Sprite.h"
-#include "../Math.h"
+#include "../Math/Math.h"
 void CSprite::SetTexture(SDL_Texture *texture) {
   mTexture = texture;
   SDL_QueryTexture(texture, nullptr, nullptr, &mTexWidth, &mTexHeight);
